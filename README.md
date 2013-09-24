@@ -310,3 +310,14 @@ Vimscript mappings:
 * [Vim 7.3: Persistent undo and encryption!](http://amix.dk/blog/post/19548#Vim-7-3-Persistent-undo-and-encryption)
 * [Vim tips: Visual Search](http://amix.dk/blog/post/19334#Vim-tips-Visual-Search)
 * [Folding in Vim](http://amix.dk/blog/post/19132#Folding-in-Vim)
+
+
+" Turn on the WiLd menu
+" 启动具有菜单项提示的命令行自动完成,例如输入 "e 'tab键'" 底下出现菜单
+set wildmenu
+
+" Show matching brackets when text indicator is over them
+" 在输入括号时光标会短暂地跳到与之相匹配的括号处，不影响输入(:help 'showmatch')
+set showmatch  
+
+set nobackup "缺省不产生备份
