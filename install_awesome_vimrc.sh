@@ -7,6 +7,10 @@ source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 source ~/.vim_runtime/vimrcs/charles.vim
+source ~/.vim_runtime/vimrcs/matrix.vim
+source ~/.vim_runtime/vimrcs/a.vim
+source ~/.vim_runtime/vimrcs/visualmark.vim
+source ~/.vim_runtime/vimrcs/supertab.vim
 
 try
 source ~/.vim_runtime/my_configs.vim
