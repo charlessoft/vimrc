@@ -57,6 +57,6 @@ set tags+=~/arm/linux-2.6.24.7/tags "add new tags file(刚刚生成tags的路径
 
 
 "nmap <C-\>s :cs find s <C-R>=expand("<cword>" )<CR><CR>
-nmap <F10>      :ConqueTermSplit
+nmap <F10>      :ConqueTermSplit 
 let g:SuperTabRetainCompletionType=2
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
