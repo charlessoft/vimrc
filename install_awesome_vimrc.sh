@@ -8,6 +8,7 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 source ~/.vim_runtime/vimrcs/charles.vim
 source ~/.vim_runtime/vimrcs/matrix.vim
+source ~/.vim_runtime/vimrcs/python.vim
 
 try
 source ~/.vim_runtime/my_configs.vim
