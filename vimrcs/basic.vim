@@ -142,11 +142,15 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme Molokai
+    let g:molokai_original = 1
+    let g:rehash256 = 1
+    set t_Co=256
+
 catch
 endtry
 
-set background=dark
+" set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
