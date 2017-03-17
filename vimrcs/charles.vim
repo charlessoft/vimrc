@@ -111,7 +111,16 @@ nmap <silent> <Leader>sws :AS<cr>
 
 nmap <F9>      :TagbarToggle<CR>
 imap <F9> <C-O>:TagbarToggle<CR>
+let g:ConqueTerm_TERM ='xterm'
+nmap <Leader>sh :ConqueTerm bash<CR>
+nmap <Leader>shs :ConqueTermSplit bash<CR>
+nmap <Leader>shv :ConqueTermVSplit bash<CR>
+nmap <Leader>sht :ConqueTermTab bash<CR>
 "nmap <Leader>tb :TagbarToggle<CR>
 "let g:tagbar_ctags_bin='/usr/bin/ctags'
 let g:tagbar_width=30
 "autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+"set splitright
+"set makeprg=gcc\ -Wall\ -o\ %<\ %	" 设置make命令
+"copen 5					" 自动打开QuickFix列表并设置高为5行
+"map <F5> <esc>:w<cr><esc>:make<cr>:cw<cr><c-w>j

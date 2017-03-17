@@ -1,4 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Important: 
 "       This requries that you install https://github.com/amix/vimrc !
 "
@@ -35,6 +36,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
+"colorscheme solarized
 colorscheme Molokai
 let g:molokai_original = 1
 let g:rehash256 = 1
